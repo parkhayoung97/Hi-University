@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import
+   url("//fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap")
+   ;
+
+body {
+   background: rgba(50, 128, 50);
+}
+
+#wrap {
+   width: 971px; /**/
+   /* 가운데 정렬을 위한 바깥쪽 여백 설정*/
+   margin: 0; /* margin: 0, auto 로 해도 됨! */
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#mainHeader {
+   width: 80%;
+   height: 110px;
+   margin: 0;
+   border: none;
+   margin-top: 100px;
+   margin-left: -10px;
+   margin-right: auto;
+   background-repeat: no-repeat;
+   background-position: left top;
+}
+
+#mainHeader img {
+   margin-top: -10px;
+   width: 200px;
+   height: 150px;
+   border: 0;
+   content: url('image/logf1.png');
+   background-repeat: no-repeat;
+   float: left;
+}
+
+#mainHeader h1 {
+   position: absolute;
+   margin-top: 10px;
+   opacity: 0.8;
+   float: left;
+}
+
+.header1 {
+   font-family: "Nanum Myeongjo";
+   font-size: 6em;
+   color: #ffffff;
+   text-shadow: 0px 1px 1px #ffffff;
+   float: left;
+}
+
+#login {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+   width: 100%;
+   height: 700px;
+   background-image: url('image/login3.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#loginform {
+   height: 800px;
+   width: 700px;
+   padding-top: 70px;
+   margin-top: 30px;
+   border: none;
+}
+
+#loginform h1 {
+   font-family: "Nanum Myeongjo";
+   color: rgb(234, 220, 198);
+   font-size: 3em;
+}
+
+#loginform table {
+   width: 700px;
+   height: 280px; 
+   font-family: "Nanum Myeongjo";
+   border-collapse : collapse;
+   margin-top: -10px;
+   /*tr 아래와 td 윗줄을 합쳐서 두 줄을 한줄로 보이게 함*/
+   border-collapse: collapse; /*tr 아래와 td 윗줄을 합쳐서 두 줄을 한줄로 보이게 함*/
+   font-size : 20px; line-height : 24px;
+   background: rgb(234, 220, 198);
+}
+
+table td, th {
+   border: black solod 1px; /* 경계선 색상 스타일 굵기 */
+   padding: 5px;
+}
+
+th {
+   background: rgb(0, 255, 64);
+}
+
+img {
+   width: 220px;
+   height: 300px;
+}
+
+a {
+   text-decoration: none; /* 링크 밑줄 없애기*/
+   color: black;
+}
+
+a:hover {
+   text-decoration: underline; /* 밑줄 */
+   color: gray;
+}
+
+table td, th:hover {
+   text-decoration: underline; /* 밑줄 */
+   color: black;
+   text-align: center;
+}
+
+button.active {
+   background: red;
+   color: red;
+}

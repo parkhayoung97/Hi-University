@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#wrap {
+   width: 971px; /**/
+   /* 가운데 정렬을 위한 바깥쪽 여백 설정*/
+   margin: 0; /* margin: 0, auto 로 해도 됨! */
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+table {
+   width: 650px;
+   border-collapse: collapse; /*tr 아래와 td 윗줄을 합쳐서 두 줄을 한줄로 보이게 함*/
+   font-size: 12px;
+   line-height: 24px;
+   border : 1px solid black;
+}
+
+table td, th {
+   border: black solod 1px; /* 경계선 색상 스타일 굵기 */
+   padding: 5px;
+}
+
+th {
+   background: rgba(136, 176, 75);
+}
+
+img {
+   width: 220px;
+   height: 300px;
+}
+
+a {
+   text-decoration: none; /* 링크 밑줄 없애기*/
+   color: black;
+}
+
+
+
+table td, th:hover {
+   text-decoration: underline; /* 밑줄 */
+   color: black;
+   text-align:center;
+}
+button.active {
+  background: red;
+  color: red;
+}

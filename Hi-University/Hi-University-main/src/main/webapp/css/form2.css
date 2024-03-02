@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+@import
+	url("//fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap")
+	;
+
+@import
+	url("//fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap")
+	;
+
+body {
+	height: 100vh;
+	width: 100%;
+	background-image: url('image/co05.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#container {
+	width: 1500px;
+	height: 870px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid black;
+	border: none;
+}
+
+#mainHeader {
+	height: 130px;
+	margin: 0;
+	margin-top: 0px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#mainHeader img {
+	width: 160px;
+	height: 120px;
+	border: 0;
+	content: url('image/logo.png');
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#mainHeader h1 {
+	position: absolute;
+	margin-top: -8px;
+	margin-left: 30px;
+	opacity: 0.8;
+}
+
+.header1 {
+	font-family: "Nanum Myeongjo";
+	font-size: 6em;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+#mainNav {
+	background: rgba(56, 87, 35);
+	margin-top: -15px;
+	width: 100%;
+	height: 60px;
+	width: 100%;
+	border: none;
+}
+
+#mainNav ul {
+	list-style: none;
+	height: 30px;
+	padding-top: 12px;
+	padding-bottom: 5px;
+}
+
+#mainNav ul li {
+	display: inline;
+	float: left;
+}
+
+#mainNav a, #mainNav a:visited {
+	padding: 10px 5px 5px 60px;
+	display: block;
+	font-family: "Nanum Gothic Coding";
+	font-size: 4sem;
+	color: #ffffff;
+	text-shadow: 0px 0px 1px #ffffff;
+	width: 150px;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+}
+
+#content {
+	background-color: white;
+	padding-top: 5px;
+	padding-left: 20px;
+	width: 82%;
+	height: 850px;
+	float: left;
+}
+
+#boardContent {
+	background-color: white;
+	padding-top: 5px;
+	padding-left: 20px;
+	width: 97%;
+	height: 900px;
+	float: left;
+}
+
+#sidebar li ul li {
+	list-style-image: url("images/plus.png");
+}
+
+#sidebar li:hover {
+	border: none;
+	color: #ffffff;
+}
+
+#footer {
+	padding: 10px 0;
+	background-color: skyblue;
+	color: white;
+	text-align: center;
+	clear: both;
+	height: 80px;
+	position: relative;
+}
+
+header, section, footer, aside, article, figure {
+	display: block;
+	border: 1px solid grey;
+	margin: 5px;
+	padding: 10px;
+}
+
+.table {
+	width: 700px;
+	text-align: center;
+}
+
+#sidebar {
+	float: left;
+	width: 250px;
+	height: 850px;
+	margin-top: 10px;
+	margin-left: 70px;
+	margin-bottom: 0px;
+	background-color: rgba(105, 137, 56);
+	padding-top: 20px;
+	padding-right: 5px;
+	font-family: "Nanum Gothic Coding";
+	color: rgba(255, 255, 255, 0.0);
+	text-shadow: 0px 1px 1px #ffffff;
+	list-style-type: none;
+	border: none;
+	text-align: center;
+}
+
+.main1_1, .main1_3, .main1_4 {
+	font-size: 4sem;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+#footer {
+	height: 100px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.0);
+	border: none;
+}
+
+.idd {
+	position: relative;
+	right: 150px;
+	width: 500px;
+	height: 700px;
+	top: -350px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	float: right;
+	margin-right: 70px;
+	border: 3px solid black;
+}
+
+#idd h3 {
+	margin-top: 5px;
+}
+
+#notice {
+	width: 500px;
+	height: 340px;
+	margin-top: 20px;
+	margin-left: 150px;
+	text-align: center;
+	border:1px solid black;
+	background: rgba(56, 87, 35);
+	font-family: "Nanum Gothic Coding";
+	font-size: 4sem;
+	color: #ffffff;
+}
+#notice table{
+	margin-top: 90px;
+	margin-left: 20px;
+	text-align: center;
+	
+}
+
+#notice h2{
+	padding-top: 10px;
+}
+
+#notice td{
+	border-bottom:1px solid white;
+	
+}
+
+#idd p {
+	margin-bottom: 5px;
+}
+
+#cal1 {
+	width: 500px;
+	margin-top: 50px;
+	margin-left: 150px;
+}
