@@ -30,3 +30,9 @@
 <img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">
 
 <br>
+
+### ERD
+
+![project2](https://github.com/ann99934/Hi-University/assets/110450765/e7e33721-48e6-4da1-9b6d-040e68700b17)
+
+<br>
