@@ -5,7 +5,8 @@
 - 개발 기간: 2023.04.10 ~ 04.21
 
 <br>
-#사용 언어 및 기술
+# 사용 언어 및 기술
+
 ### Back-end
 <div>
 <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white">
